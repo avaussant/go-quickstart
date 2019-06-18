@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: http://100.70.121.0:5000/avaussant/go-quickstart
+  tag: 0.0.3
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
